@@ -1,0 +1,402 @@
+[
+  {
+    "id": "1",
+    "title": "Rich Dad Poor Dad",
+    "subtitle": "What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!",
+    "author": "Robert Kiyosaki",
+    "description": "A revolutionary approach to personal finance that challenges conventional wisdom about money and investing.",
+    "summary": "Robert Kiyosaki shares the financial lessons he learned from his 'rich dad' (his best friend's father) versus his 'poor dad' (his biological father). The book emphasizes the importance of financial literacy, building assets instead of liabilities, and developing an investor's mindset rather than an employee's mindset.",
+    "coverImage": "/images/books/book-1.jpg",
+    "affiliateUrl": "https://amzn.to/rich-dad-poor-dad",
+    "price": 16.99,
+    "rating": 4.6,
+    "reviewCount": 45892,
+    "category": "financial-planning",
+    "publishedDate": "1997-04-01",
+    "isbn": "9780446677469",
+    "pageCount": 336,
+    "amazonRank": 1,
+    "keyTakeaways": [
+      "The rich don't work for money; money works for them",
+      "Assets put money in your pocket; liabilities take money out",
+      "Financial literacy is more important than high income",
+      "Start investing early and let compound interest work for you",
+      "Build multiple streams of passive income"
+    ],
+    "targetAudience": "beginner",
+    "tags": ["mindset", "investing", "financial-literacy", "assets", "passive-income"],
+    "prosAndCons": {
+      "pros": [
+        "Excellent introduction to financial mindset",
+        "Easy to understand concepts",
+        "Motivational and inspiring",
+        "Challenges conventional thinking about money"
+      ],
+      "cons": [
+        "Light on specific investment strategies",
+        "Some concepts oversimplified",
+        "Heavy on real estate focus"
+      ]
+    }
+  },
+  {
+    "id": "2",
+    "title": "The Intelligent Investor",
+    "subtitle": "The Definitive Book on Value Investing",
+    "author": "Benjamin Graham",
+    "description": "The timeless classic that teaches the principles of value investing and market psychology.",
+    "summary": "Benjamin Graham's masterpiece provides a comprehensive framework for making investment decisions based on fundamental analysis rather than market speculation. The book introduces the concept of 'Mr. Market' and emphasizes the importance of margin of safety in investing.",
+    "coverImage": "/images/books/book-2.jpg",
+    "affiliateUrl": "https://amzn.to/intelligent-investor",
+    "price": 22.99,
+    "rating": 4.7,
+    "reviewCount": 12456,
+    "category": "investing",
+    "publishedDate": "1949-01-01",
+    "isbn": "9780060555665",
+    "pageCount": 640,
+    "amazonRank": 3,
+    "keyTakeaways": [
+      "Invest with a margin of safety",
+      "Focus on long-term value, not short-term market fluctuations",
+      "Defensive investing beats aggressive speculation",
+      "Dollar-cost averaging reduces risk",
+      "Market volatility creates opportunities for patient investors"
+    ],
+    "targetAudience": "intermediate",
+    "tags": ["value-investing", "stock-market", "long-term", "warren-buffett", "fundamental-analysis"],
+    "prosAndCons": {
+      "pros": [
+        "Timeless investment principles",
+        "Warren Buffett's favorite book",
+        "Comprehensive and detailed",
+        "Focus on risk management"
+      ],
+      "cons": [
+        "Dense and technical for beginners",
+        "Some examples are dated",
+        "Requires patience to implement strategies"
+      ]
+    }
+  },
+  {
+    "id": "3",
+    "title": "The Psychology of Money",
+    "subtitle": "Timeless Lessons on Wealth, Greed, and Happiness",
+    "author": "Morgan Housel",
+    "description": "Explores how psychology, emotions, and behavior influence our financial decisions more than pure logic.",
+    "summary": "Morgan Housel examines the psychological aspects of money management, showing how our emotions, biases, and personal experiences shape our financial choices. The book emphasizes that financial success is more about behavior than intelligence.",
+    "coverImage": "/images/books/book-3.jpg",
+    "affiliateUrl": "https://amzn.to/psychology-of-money",
+    "price": 18.99,
+    "rating": 4.8,
+    "reviewCount": 28901,
+    "category": "financial-planning",
+    "publishedDate": "2020-09-08",
+    "isbn": "9780857197689",
+    "pageCount": 256,
+    "amazonRank": 2,
+    "keyTakeaways": [
+      "Your personal experience shapes your financial beliefs",
+      "Compound interest is the most powerful force in finance",
+      "Time in the market beats timing the market",
+      "Wealth is what you don't see - money not spent",
+      "Financial decisions are emotional, not purely logical"
+    ],
+    "targetAudience": "beginner",
+    "tags": ["psychology", "behavior", "compound-interest", "wealth-building", "mindset"],
+    "prosAndCons": {
+      "pros": [
+        "Engaging storytelling approach",
+        "Applicable to all income levels",
+        "Focuses on behavior over tactics",
+        "Easy to read and understand"
+      ],
+      "cons": [
+        "Limited specific investment advice",
+        "Some concepts may seem obvious",
+        "More philosophy than actionable steps"
+      ]
+    }
+  },
+  {
+    "id": "4",
+    "title": "I Will Teach You to Be Rich",
+    "subtitle": "No Guilt. No Excuses. No BS. Just a 6-Week Program That Works",
+    "author": "Ramit Sethi",
+    "description": "A practical, step-by-step guide to automating your finances and building wealth in your 20s and 30s.",
+    "summary": "Ramit Sethi provides a comprehensive 6-week program covering banking, saving, budgeting, and investing. The book focuses on automation and psychology to make personal finance effortless while allowing you to spend guilt-free on things you love.",
+    "coverImage": "/images/books/book-4.jpg",
+    "affiliateUrl": "https://amzn.to/i-will-teach-you-rich",
+    "price": 19.99,
+    "rating": 4.5,
+    "reviewCount": 15623,
+    "category": "financial-planning",
+    "publishedDate": "2009-03-23",
+    "isbn": "9780761147480",
+    "pageCount": 272,
+    "amazonRank": 5,
+    "keyTakeaways": [
+      "Automate your finances to remove decision fatigue",
+      "Focus on big wins rather than cutting small expenses",
+      "Invest early in low-cost index funds",
+      "Negotiate bills and salary for immediate impact",
+      "Spend extravagantly on things you love, cut costs on things you don't"
+    ],
+    "targetAudience": "beginner",
+    "tags": ["automation", "budgeting", "investing", "young-adults", "practical"],
+    "prosAndCons": {
+      "pros": [
+        "Very actionable and practical",
+        "Great for young professionals",
+        "Emphasizes automation",
+        "Realistic approach to spending"
+      ],
+      "cons": [
+        "Focused mainly on US financial systems",
+        "Some advice may feel dated",
+        "Can be overwhelming for complete beginners"
+      ]
+    }
+  },
+  {
+    "id": "5",
+    "title": "The Simple Path to Wealth",
+    "subtitle": "Your Road Map to Financial Independence and a Rich, Free Life",
+    "author": "J.L. Collins",
+    "description": "A straightforward approach to building wealth through simple, low-cost index fund investing.",
+    "summary": "J.L. Collins simplifies investing by advocating for a single portfolio approach using Vanguard's Total Stock Market Index Fund. The book emphasizes the power of simplicity, low costs, and staying the course through market volatility.",
+    "coverImage": "/images/books/book-5.jpg",
+    "affiliateUrl": "https://amzn.to/simple-path-wealth",
+    "price": 16.99,
+    "rating": 4.7,
+    "reviewCount": 9876,
+    "category": "investing",
+    "publishedDate": "2016-06-18",
+    "isbn": "9781533667922",
+    "pageCount": 286,
+    "amazonRank": 7,
+    "keyTakeaways": [
+      "Keep investing simple with index funds",
+      "Avoid debt and live below your means",
+      "Time in the market beats timing the market",
+      "Low-cost investing maximizes returns",
+      "F-You money provides ultimate freedom"
+    ],
+    "targetAudience": "beginner",
+    "tags": ["index-funds", "simplicity", "financial-independence", "FIRE", "vanguard"],
+    "prosAndCons": {
+      "pros": [
+        "Extremely simple approach",
+        "Low-cost strategy",
+        "Great for beginners",
+        "Focus on financial independence"
+      ],
+      "cons": [
+        "Very US-centric advice",
+        "Limited diversification discussion",
+        "May be too simple for some investors"
+      ]
+    }
+  },
+  {
+    "id": "6",
+    "title": "Think and Grow Rich",
+    "subtitle": "The Landmark Bestseller Now Revised and Updated for the 21st Century",
+    "author": "Napoleon Hill",
+    "description": "A classic motivational book that reveals the psychology and philosophy behind wealth creation.",
+    "summary": "Based on interviews with over 500 wealthy individuals, Napoleon Hill outlines 13 principles for achieving financial success. The book emphasizes the power of thoughts, persistence, and developing a success mindset.",
+    "coverImage": "/images/books/book-6.jpg",
+    "affiliateUrl": "https://amzn.to/think-grow-rich",
+    "price": 15.99,
+    "rating": 4.4,
+    "reviewCount": 34567,
+    "category": "entrepreneurship",
+    "publishedDate": "1937-01-01",
+    "isbn": "9781585424337",
+    "pageCount": 320,
+    "amazonRank": 8,
+    "keyTakeaways": [
+      "Develop a burning desire for your goals",
+      "Faith and belief are essential for success",
+      "Create detailed plans and take persistent action",
+      "Surround yourself with successful people",
+      "Master your thoughts and emotions"
+    ],
+    "targetAudience": "beginner",
+    "tags": ["mindset", "success", "motivation", "entrepreneurship", "classic"],
+    "prosAndCons": {
+      "pros": [
+        "Timeless success principles",
+        "Motivational and inspiring",
+        "Based on research with successful people",
+        "Focuses on mindset over tactics"
+      ],
+      "cons": [
+        "Language feels dated",
+        "Light on practical financial advice",
+        "Some concepts may seem mystical"
+      ]
+    }
+  },
+  {
+    "id": "7",
+    "title": "The Total Money Makeover",
+    "subtitle": "A Proven Plan for Financial Fitness",
+    "author": "Dave Ramsey",
+    "description": "A step-by-step plan for getting out of debt and building wealth through disciplined money management.",
+    "summary": "Dave Ramsey presents his famous 'Baby Steps' program for achieving financial peace. The book emphasizes debt elimination, emergency funds, and conservative investment strategies while building wealth slowly and steadily.",
+    "coverImage": "/images/books/book-7.jpg",
+    "affiliateUrl": "https://amzn.to/total-money-makeover",
+    "price": 17.99,
+    "rating": 4.6,
+    "reviewCount": 21098,
+    "category": "debt-management",
+    "publishedDate": "2003-09-17",
+    "isbn": "9780785289081",
+    "pageCount": 272,
+    "amazonRank": 4,
+    "keyTakeaways": [
+      "Follow the 7 Baby Steps to financial freedom",
+      "Build a $1,000 emergency fund first",
+      "Pay off all debt using the debt snowball method",
+      "Save 3-6 months of expenses",
+      "Invest 15% of income for retirement"
+    ],
+    "targetAudience": "beginner",
+    "tags": ["debt-elimination", "emergency-fund", "baby-steps", "discipline", "conservative"],
+    "prosAndCons": {
+      "pros": [
+        "Clear, actionable steps",
+        "Great for debt elimination",
+        "Motivational success stories",
+        "Simple to follow"
+      ],
+      "cons": [
+        "Conservative investment approach",
+        "One-size-fits-all mentality",
+        "Limited discussion of credit benefits"
+      ]
+    }
+  },
+  {
+    "id": "8",
+    "title": "The Millionaire Next Door",
+    "subtitle": "The Surprising Secrets of America's Wealthy",
+    "author": "Thomas J. Stanley",
+    "description": "Reveals the common traits and habits of wealthy Americans based on extensive research.",
+    "summary": "Based on decades of research, this book debunks myths about the wealthy and reveals that most millionaires are ordinary people who live below their means, save consistently, and avoid lifestyle inflation. They drive used cars, live in modest homes, and prioritize financial independence over status symbols.",
+    "coverImage": "/images/books/book-8.jpg",
+    "affiliateUrl": "https://amzn.to/millionaire-next-door",
+    "price": 18.99,
+    "rating": 4.5,
+    "reviewCount": 18765,
+    "category": "financial-planning",
+    "publishedDate": "1996-10-01",
+    "isbn": "9781589795471",
+    "pageCount": 272,
+    "amazonRank": 9,
+    "keyTakeaways": [
+      "Most millionaires are frugal and live below their means",
+      "Wealth accumulation requires discipline, not high income",
+      "Avoid lifestyle inflation and status purchases",
+      "Financial independence is more important than appearing wealthy",
+      "Self-employed business owners build the most wealth"
+    ],
+    "targetAudience": "intermediate",
+    "tags": ["wealth-research", "frugality", "millionaire-habits", "lifestyle", "discipline"],
+    "prosAndCons": {
+      "pros": [
+        "Based on extensive research",
+        "Challenges wealth stereotypes",
+        "Practical insights into wealthy habits",
+        "Data-driven conclusions"
+      ],
+      "cons": [
+        "Some data may feel outdated",
+        "Focus mainly on high-net-worth individuals",
+        "Limited investment strategy discussion"
+      ]
+    }
+  },
+  {
+    "id": "9",
+    "title": "One Up On Wall Street",
+    "subtitle": "How to Use What You Already Know to Make Money in the Market",
+    "author": "Peter Lynch",
+    "description": "Legendary fund manager Peter Lynch shares his investment philosophy and stock-picking strategies.",
+    "summary": "Peter Lynch, former manager of the Fidelity Magellan Fund, explains how individual investors can beat professional money managers by investing in what they know. The book emphasizes thorough research, understanding business fundamentals, and having patience.",
+    "coverImage": "/images/books/book-9.jpg",
+    "affiliateUrl": "https://amzn.to/one-up-wall-street",
+    "price": 20.99,
+    "rating": 4.6,
+    "reviewCount": 8934,
+    "category": "investing",
+    "publishedDate": "1989-05-01",
+    "isbn": "9780743200400",
+    "pageCount": 320,
+    "amazonRank": 12,
+    "keyTakeaways": [
+      "Invest in what you know and understand",
+      "Do your homework before buying any stock",
+      "Look for companies with strong fundamentals",
+      "Individual investors have advantages over institutions",
+      "Patience and research beat quick trading"
+    ],
+    "targetAudience": "intermediate",
+    "tags": ["stock-picking", "fundamental-analysis", "individual-investing", "research", "peter-lynch"],
+    "prosAndCons": {
+      "pros": [
+        "Written by legendary investor",
+        "Practical stock selection advice",
+        "Accessible to individual investors",
+        "Emphasizes thorough research"
+      ],
+      "cons": [
+        "Requires significant time for research",
+        "Market conditions have changed since publication",
+        "May encourage stock picking over indexing"
+      ]
+    }
+  },
+  {
+    "id": "10",
+    "title": "Your Money or Your Life",
+    "subtitle": "9 Steps to Transforming Your Relationship with Money and Achieving Financial Independence",
+    "author": "Vicki Robin",
+    "description": "A comprehensive guide to achieving financial independence by changing your relationship with money.",
+    "summary": "This book presents a 9-step program for achieving financial independence by calculating your real hourly wage, tracking expenses, and aligning spending with values. It emphasizes the connection between time, money, and life satisfaction.",
+    "coverImage": "/images/books/book-10.jpg",
+    "affiliateUrl": "https://amzn.to/your-money-your-life",
+    "price": 19.99,
+    "rating": 4.4,
+    "reviewCount": 6745,
+    "category": "financial-planning",
+    "publishedDate": "1992-09-01",
+    "isbn": "9780143115762",
+    "pageCount": 368,
+    "amazonRank": 15,
+    "keyTakeaways": [
+      "Calculate your real hourly wage including commute and work expenses",
+      "Track every penny to understand spending patterns",
+      "Align spending with your values and life goals",
+      "Achieve financial independence through conscious spending",
+      "Money is life energy - spend it wisely"
+    ],
+    "targetAudience": "intermediate",
+    "tags": ["financial-independence", "FIRE", "conscious-spending", "tracking", "life-values"],
+    "prosAndCons": {
+      "pros": [
+        "Holistic approach to money",
+        "Emphasis on values alignment",
+        "Detailed tracking methodology",
+        "Focus on life satisfaction"
+      ],
+      "cons": [
+        "Time-intensive tracking required",
+        "May be overwhelming for beginners",
+        "Limited investment strategy discussion"
+      ]
+    }
+  }
+]

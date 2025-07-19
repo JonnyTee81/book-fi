@@ -1,0 +1,112 @@
+[
+  {
+    "id": "robert-kiyosaki",
+    "name": "Robert Kiyosaki",
+    "bio": "Robert Kiyosaki is an American businessman, investor, and author best known for his Rich Dad Poor Dad series. He advocates for financial literacy and entrepreneurship, challenging traditional approaches to money and investing. Kiyosaki founded the Rich Dad Company and has written over 25 books on financial education.",
+    "image": "/images/authors/robert-kiyosaki.jpg",
+    "books": ["1"],
+    "expertise": ["Real Estate", "Financial Education", "Entrepreneurship"],
+    "website": "https://www.richdad.com",
+    "netWorth": "80 million",
+    "keyPhilosophy": "The rich don't work for money; money works for them. Focus on acquiring assets that generate passive income."
+  },
+  {
+    "id": "benjamin-graham",
+    "name": "Benjamin Graham",
+    "bio": "Benjamin Graham (1894-1976) was a British-American economist, professor, and investor known as the 'father of value investing.' His investment philosophy influenced Warren Buffett and countless other successful investors. Graham taught at Columbia Business School and authored several influential books on investing.",
+    "image": "/images/authors/benjamin-graham.jpg",
+    "books": ["2"],
+    "expertise": ["Value Investing", "Security Analysis", "Financial Theory"],
+    "website": null,
+    "netWorth": "Historical figure",
+    "keyPhilosophy": "In the short run, the market is a voting machine. In the long run, it's a weighing machine. Invest with a margin of safety."
+  },
+  {
+    "id": "morgan-housel",
+    "name": "Morgan Housel",
+    "bio": "Morgan Housel is a financial writer and behavioral economist who focuses on the psychology of money and investing. He's a former columnist at The Wall Street Journal and The Motley Fool, and currently serves as a partner at The Collaborative Fund. His work emphasizes how behavior drives financial outcomes.",
+    "image": "/images/authors/morgan-housel.jpg",
+    "books": ["3"],
+    "expertise": ["Behavioral Finance", "Financial Psychology", "Investment Writing"],
+    "website": "https://www.morganhousel.com",
+    "netWorth": "Not disclosed",
+    "keyPhilosophy": "Your personal experience with money makes up maybe 0.00000001% of what's happened in the world, but maybe 80% of how you think the world works."
+  },
+  {
+    "id": "ramit-sethi",
+    "name": "Ramit Sethi",
+    "bio": "Ramit Sethi is an entrepreneur, author, and personal finance advisor known for his psychology-based approach to money management. He founded I Will Teach You To Be Rich and has helped millions of people improve their financial lives through his books, courses, and online content.",
+    "image": "/images/authors/ramit-sethi.jpg",
+    "books": ["4"],
+    "expertise": ["Personal Finance", "Psychology", "Automation", "Negotiation"],
+    "website": "https://www.iwillteachyoutoberich.com",
+    "netWorth": "25 million",
+    "keyPhilosophy": "Spend extravagantly on the things you love, and cut costs mercilessly on the things you don't. Automate your finances to remove decision fatigue."
+  },
+  {
+    "id": "jl-collins",
+    "name": "J.L. Collins",
+    "bio": "J.L. Collins is a financial blogger and author who advocates for simple, low-cost index fund investing. His blog 'The Simple Path to Wealth' became the foundation for his book of the same name. Collins is known for making complex financial concepts accessible to everyday investors.",
+    "image": "/images/authors/jl-collins.jpg",
+    "books": ["5"],
+    "expertise": ["Index Fund Investing", "Financial Independence", "FIRE Movement"],
+    "website": "https://jlcollinsnh.com",
+    "netWorth": "Not disclosed",
+    "keyPhilosophy": "Keep investing simple. Low-cost index funds, time in the market, and living below your means are the keys to building wealth."
+  },
+  {
+    "id": "napoleon-hill",
+    "name": "Napoleon Hill",
+    "bio": "Napoleon Hill (1883-1970) was an American self-help author best known for 'Think and Grow Rich.' He spent 25 years studying successful people and developed his philosophy of personal achievement. His work influenced the modern self-help industry and success literature.",
+    "image": "/images/authors/napoleon-hill.jpg",
+    "books": ["6"],
+    "expertise": ["Success Psychology", "Goal Setting", "Motivation", "Leadership"],
+    "website": null,
+    "netWorth": "Historical figure",
+    "keyPhilosophy": "Whatever the mind can conceive and believe, it can achieve. Success begins with a definite purpose and persistent action."
+  },
+  {
+    "id": "dave-ramsey",
+    "name": "Dave Ramsey",
+    "bio": "Dave Ramsey is a financial advisor, radio host, author, and businessman known for his conservative approach to personal finance. His 'Baby Steps' program has helped millions of people get out of debt and build wealth. He hosts The Ramsey Show and founded Ramsey Solutions.",
+    "image": "/images/authors/dave-ramsey.jpg",
+    "books": ["7"],
+    "expertise": ["Debt Elimination", "Emergency Funds", "Conservative Investing", "Financial Discipline"],
+    "website": "https://www.ramseysolutions.com",
+    "netWorth": "200 million",
+    "keyPhilosophy": "Live like no one else, so later you can live like no one else. Debt is the enemy of wealth building."
+  },
+  {
+    "id": "thomas-stanley",
+    "name": "Thomas J. Stanley",
+    "bio": "Thomas J. Stanley (1944-2015) was an American writer and business theorist who studied the affluent and wealthy in America. His research revealed the habits and characteristics of millionaires, debunking many stereotypes about wealthy people. His work is based on decades of surveys and interviews.",
+    "image": "/images/authors/thomas-stanley.jpg",
+    "books": ["8"],
+    "expertise": ["Wealth Research", "Millionaire Studies", "Consumer Behavior", "Financial Demographics"],
+    "website": null,
+    "netWorth": "Historical figure",
+    "keyPhilosophy": "Building wealth requires discipline, frugality, and planning. Most millionaires are ordinary people who live below their means."
+  },
+  {
+    "id": "peter-lynch",
+    "name": "Peter Lynch",
+    "bio": "Peter Lynch is a legendary American investor who managed the Fidelity Magellan Fund from 1977 to 1990, achieving an average annual return of 29.2%. He's known for his 'invest in what you know' philosophy and his ability to explain complex investment concepts in simple terms.",
+    "image": "/images/authors/peter-lynch.jpg",
+    "books": ["9"],
+    "expertise": ["Stock Picking", "Mutual Funds", "Growth Investing", "Fundamental Analysis"],
+    "website": null,
+    "netWorth": "450 million",
+    "keyPhilosophy": "Know what you own, and know why you own it. The best stock to buy may be the one you already know something about."
+  },
+  {
+    "id": "vicki-robin",
+    "name": "Vicki Robin",
+    "bio": "Vicki Robin is a social innovator, writer, and speaker known for her work on sustainable living and financial independence. She co-authored 'Your Money or Your Life' and has been a pioneer in the FIRE (Financial Independence, Retire Early) movement, emphasizing the connection between money and life values.",
+    "image": "/images/authors/vicki-robin.jpg",
+    "books": ["10"],
+    "expertise": ["Financial Independence", "Sustainable Living", "Life Values", "FIRE Movement"],
+    "website": "https://yourmoneyoryourlife.com",
+    "netWorth": "Not disclosed",
+    "keyPhilosophy": "Money is life energy. Make conscious choices about how you spend your time and money to align with your deepest values."
+  }
+]

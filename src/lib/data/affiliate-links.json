@@ -1,0 +1,178 @@
+[
+  {
+    "id": "1-amazon",
+    "bookId": "1",
+    "provider": "amazon",
+    "url": "https://amzn.to/rich-dad-poor-dad",
+    "trackingId": "bookfi-20",
+    "price": 16.99
+  },
+  {
+    "id": "1-audible",
+    "bookId": "1",
+    "provider": "audible",
+    "url": "https://www.audible.com/pd/Rich-Dad-Poor-Dad-Audiobook/B008BUHQMM",
+    "trackingId": "bookfi-audible",
+    "price": 14.95
+  },
+  {
+    "id": "1-barnes-noble",
+    "bookId": "1",
+    "provider": "barnes-noble",
+    "url": "https://www.barnesandnoble.com/w/rich-dad-poor-dad-robert-t-kiyosaki/1100624122",
+    "trackingId": "bookfi-bn",
+    "price": 17.99
+  },
+  {
+    "id": "2-amazon",
+    "bookId": "2",
+    "provider": "amazon",
+    "url": "https://amzn.to/intelligent-investor",
+    "trackingId": "bookfi-20",
+    "price": 22.99
+  },
+  {
+    "id": "2-audible",
+    "bookId": "2",
+    "provider": "audible",
+    "url": "https://www.audible.com/pd/The-Intelligent-Investor-Audiobook/B06X9QWSCD",
+    "trackingId": "bookfi-audible",
+    "price": 24.95
+  },
+  {
+    "id": "3-amazon",
+    "bookId": "3",
+    "provider": "amazon",
+    "url": "https://amzn.to/psychology-of-money",
+    "trackingId": "bookfi-20",
+    "price": 18.99
+  },
+  {
+    "id": "3-audible",
+    "bookId": "3",
+    "provider": "audible",
+    "url": "https://www.audible.com/pd/The-Psychology-of-Money-Audiobook/B08D9WJ9G8",
+    "trackingId": "bookfi-audible",
+    "price": 19.95
+  },
+  {
+    "id": "3-apple-books",
+    "bookId": "3",
+    "provider": "apple-books",
+    "url": "https://books.apple.com/us/book/the-psychology-of-money/id1501765329",
+    "trackingId": "bookfi-apple",
+    "price": 14.99
+  },
+  {
+    "id": "4-amazon",
+    "bookId": "4",
+    "provider": "amazon",
+    "url": "https://amzn.to/i-will-teach-you-rich",
+    "trackingId": "bookfi-20",
+    "price": 19.99
+  },
+  {
+    "id": "4-audible",
+    "bookId": "4",
+    "provider": "audible",
+    "url": "https://www.audible.com/pd/I-Will-Teach-You-to-Be-Rich-Second-Edition-Audiobook/B07QR4WKG8",
+    "trackingId": "bookfi-audible",
+    "price": 22.95
+  },
+  {
+    "id": "5-amazon",
+    "bookId": "5",
+    "provider": "amazon",
+    "url": "https://amzn.to/simple-path-wealth",
+    "trackingId": "bookfi-20",
+    "price": 16.99
+  },
+  {
+    "id": "5-audible",
+    "bookId": "5",
+    "provider": "audible",
+    "url": "https://www.audible.com/pd/The-Simple-Path-to-Wealth-Audiobook/B07LJWJXWG",
+    "trackingId": "bookfi-audible",
+    "price": 18.95
+  },
+  {
+    "id": "6-amazon",
+    "bookId": "6",
+    "provider": "amazon",
+    "url": "https://amzn.to/think-grow-rich",
+    "trackingId": "bookfi-20",
+    "price": 15.99
+  },
+  {
+    "id": "6-audible",
+    "bookId": "6",
+    "provider": "audible",
+    "url": "https://www.audible.com/pd/Think-and-Grow-Rich-Audiobook/B002V5BV96",
+    "trackingId": "bookfi-audible",
+    "price": 17.95
+  },
+  {
+    "id": "7-amazon",
+    "bookId": "7",
+    "provider": "amazon",
+    "url": "https://amzn.to/total-money-makeover",
+    "trackingId": "bookfi-20",
+    "price": 17.99
+  },
+  {
+    "id": "7-audible",
+    "bookId": "7",
+    "provider": "audible",
+    "url": "https://www.audible.com/pd/The-Total-Money-Makeover-Updated-and-Expanded-Audiobook/B007MPO58S",
+    "trackingId": "bookfi-audible",
+    "price": 20.95
+  },
+  {
+    "id": "8-amazon",
+    "bookId": "8",
+    "provider": "amazon",
+    "url": "https://amzn.to/millionaire-next-door",
+    "trackingId": "bookfi-20",
+    "price": 18.99
+  },
+  {
+    "id": "8-audible",
+    "bookId": "8",
+    "provider": "audible",
+    "url": "https://www.audible.com/pd/The-Millionaire-Next-Door-Audiobook/B00C5R7F4E",
+    "trackingId": "bookfi-audible",
+    "price": 21.95
+  },
+  {
+    "id": "9-amazon",
+    "bookId": "9",
+    "provider": "amazon",
+    "url": "https://amzn.to/one-up-wall-street",
+    "trackingId": "bookfi-20",
+    "price": 20.99
+  },
+  {
+    "id": "9-audible",
+    "bookId": "9",
+    "provider": "audible",
+    "url": "https://www.audible.com/pd/One-Up-On-Wall-Street-Audiobook/B002UZYX8K",
+    "trackingId": "bookfi-audible",
+    "price": 23.95
+  },
+  {
+    "id": "10-amazon",
+    "bookId": "10",
+    "provider": "amazon",
+    "url": "https://amzn.to/your-money-your-life",
+    "trackingId": "bookfi-20",
+    "price": 19.99
+  },
+  {
+    "id": "10-audible",
+    "bookId": "10",
+    "provider": "audible",
+    "url": "https://www.audible.com/pd/Your-Money-or-Your-Life-Audiobook/B077Q54KZD",
+    "trackingId": "bookfi-audible",
+    "price": 22.95
+  }
+]
