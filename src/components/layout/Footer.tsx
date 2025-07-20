@@ -2,30 +2,23 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white">
+    <footer className="bg-slate-950 text-white">
       {/* Newsletter Section */}
-      <div className="bg-gray-800">
+      <div className="bg-slate-900/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="text-center">
-            <h2 className="text-3xl font-bold mb-4">Why choose BookFi?</h2>
-            <p className="text-gray-300 max-w-3xl mx-auto mb-8">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-              when an unknown printer took a galley of type and scrambled it to make a type 
-              specimen book. It has survived not only five centuries, but also the leap into 
-              electronic typesetting, remaining essentially unchanged. It was popularised in 
-              the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-              and more recently with desktop publishing software like Aldus PageMaker including 
-              versions of Lorem Ipsum.
+            <h2 className="text-3xl font-bold mb-4">Transform Your Financial Future</h2>
+            <p className="text-slate-300 max-w-3xl mx-auto mb-8">
+              Join thousands of readers who are building wealth and achieving financial independence through the power of expert-recommended personal finance books. Start your journey today with our curated collection of life-changing financial education.
             </p>
             
             <div className="flex max-w-md mx-auto">
               <input
                 type="email"
-                placeholder="Email"
-                className="flex-1 px-4 py-3 rounded-l-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-500"
+                placeholder="Enter your email"
+                className="flex-1 px-4 py-3 rounded-l-xl text-slate-900 bg-white focus:outline-none focus:ring-2 focus:ring-emerald-500"
               />
-              <button className="bg-green-500 hover:bg-green-600 px-6 py-3 rounded-r-lg font-medium transition-colors">
+              <button className="bg-gradient-to-r from-emerald-500 to-green-500 hover:from-emerald-600 hover:to-green-600 px-6 py-3 rounded-r-xl font-medium transition-all duration-200 shadow-lg hover:shadow-emerald-500/25">
                 →
               </button>
             </div>
@@ -38,64 +31,61 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">
-              <div className="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center mr-2">
-                <span className="text-white font-bold text-sm">📚</span>
+              <div className="w-8 h-8 bg-gradient-to-br from-emerald-400 to-green-500 rounded-xl flex items-center justify-center mr-3 shadow-lg">
+                <span className="text-slate-900 font-bold text-sm">📚</span>
               </div>
               <span className="text-xl font-bold">BookFi</span>
             </div>
-            <p className="text-gray-400 text-sm mb-4">
-              At BookFi, we provides education on social media networks, information 
-              technology skills to help everyone access to technological 
-              knowledge to access sustainable technology and help share them 
-              become successful at that, and it will provide them 
-              more training opportunities skills.
+            <p className="text-slate-400 text-sm mb-4">
+              We curate and recommend the best personal finance books to help you build wealth, achieve financial independence, and transform your relationship with money. Our expert reviews and organized collections make finding the right book simple.
             </p>
           </div>
           
           <div>
-            <h3 className="font-semibold mb-4">Editor's Choice</h3>
-            <ul className="space-y-2 text-sm text-gray-400">
-              <li><Link href="/business" className="hover:text-white transition-colors">Business</Link></li>
-              <li><Link href="/marketing" className="hover:text-white transition-colors">Marketing</Link></li>
-              <li><Link href="/seo" className="hover:text-white transition-colors">SEO</Link></li>
-              <li><Link href="/design" className="hover:text-white transition-colors">Design</Link></li>
-              <li><Link href="/office-productivity" className="hover:text-white transition-colors">Office Productivity</Link></li>
-              <li><Link href="/teaching-academics" className="hover:text-white transition-colors">Teaching & Academics</Link></li>
+            <h3 className="font-semibold mb-4">Popular Topics</h3>
+            <ul className="space-y-2 text-sm text-slate-400">
+              <li><Link href="/categories/investing" className="hover:text-emerald-400 transition-colors">Investing</Link></li>
+              <li><Link href="/categories/budgeting" className="hover:text-emerald-400 transition-colors">Budgeting</Link></li>
+              <li><Link href="/categories/debt-management" className="hover:text-emerald-400 transition-colors">Debt Management</Link></li>
+              <li><Link href="/categories/retirement" className="hover:text-emerald-400 transition-colors">Retirement Planning</Link></li>
+              <li><Link href="/categories/entrepreneurship" className="hover:text-emerald-400 transition-colors">Entrepreneurship</Link></li>
+              <li><Link href="/categories/real-estate" className="hover:text-emerald-400 transition-colors">Real Estate</Link></li>
             </ul>
           </div>
           
           <div>
             <h3 className="font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-2 text-sm text-gray-400">
-              <li><Link href="/about" className="hover:text-white transition-colors">About us</Link></li>
-              <li><Link href="/courses" className="hover:text-white transition-colors">Courses</Link></li>
-              <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
-              <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
-              <li><Link href="/become-instructor" className="hover:text-white transition-colors">Become Instructor</Link></li>
-              <li><Link href="/affiliate-disclosure" className="hover:text-white transition-colors">Affiliate Disclosure</Link></li>
+            <ul className="space-y-2 text-sm text-slate-400">
+              <li><Link href="/about" className="hover:text-emerald-400 transition-colors">About Us</Link></li>
+              <li><Link href="/books" className="hover:text-emerald-400 transition-colors">All Books</Link></li>
+              <li><Link href="/collections" className="hover:text-emerald-400 transition-colors">Collections</Link></li>
+              <li><Link href="/bestsellers" className="hover:text-emerald-400 transition-colors">Bestsellers</Link></li>
+              <li><Link href="/categories" className="hover:text-emerald-400 transition-colors">Categories</Link></li>
+              <li><Link href="/disclosure" className="hover:text-emerald-400 transition-colors">Affiliate Disclosure</Link></li>
             </ul>
           </div>
           
           <div>
-            <h3 className="font-semibold mb-4">Contact us</h3>
-            <div className="text-sm text-gray-400 space-y-2">
-              <p>Feel free to get in touch with us via phone or send us a message</p>
-              <p>📞 +1 (555) 123-4567</p>
-              <p>✉️ hello@bookfi.com</p>
+            <h3 className="font-semibold mb-4">Get Started</h3>
+            <div className="text-sm text-slate-400 space-y-3">
+              <p>Ready to transform your financial future?</p>
+              <Link href="/collections/beginner-essentials" className="block bg-gradient-to-r from-emerald-500/20 to-green-500/20 border border-emerald-500/30 text-emerald-400 hover:text-emerald-300 px-4 py-2 rounded-lg transition-colors backdrop-blur-sm">
+                Start with Beginner Books →
+              </Link>
               <div className="flex space-x-4 mt-4">
-                <span className="text-xl">📘</span>
-                <span className="text-xl">🐦</span>
-                <span className="text-xl">💼</span>
-                <span className="text-xl">📷</span>
-                <span className="text-xl">📌</span>
+                <span className="text-xl hover:scale-110 transition-transform cursor-pointer">📘</span>
+                <span className="text-xl hover:scale-110 transition-transform cursor-pointer">🐦</span>
+                <span className="text-xl hover:scale-110 transition-transform cursor-pointer">💼</span>
+                <span className="text-xl hover:scale-110 transition-transform cursor-pointer">📷</span>
+                <span className="text-xl hover:scale-110 transition-transform cursor-pointer">📌</span>
               </div>
             </div>
           </div>
         </div>
         
-        <div className="border-t border-gray-800 mt-12 pt-8 text-center text-sm text-gray-400">
+        <div className="border-t border-slate-800 mt-12 pt-8 text-center text-sm text-slate-400">
           <p>Copyright © 2024 BookFi All Rights Reserved.</p>
-          <p className="mt-2">We might receive compensation when you buy through our affiliate links.</p>
+          <p className="mt-2">We might receive compensation when you buy through our affiliate links. <Link href="/disclosure" className="text-emerald-400 hover:text-emerald-300 transition-colors">Learn more</Link></p>
         </div>
       </div>
     </footer>
