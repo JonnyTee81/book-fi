@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import Header from '@/components/layout/Header';
@@ -10,6 +11,61 @@ import { bookAuthors } from '@/lib/data/books';
 interface BookPageProps {
   params: {
     id: string;
+  };
+}
+
+export async function generateMetadata({ params }: BookPageProps): Promise<Metadata> {
+  const book = getBookById(params.id);
+  
+  if (!book) {
+    return {
+      title: 'Book Not Found | BookFi',
+      description: 'The requested book could not be found.',
+    };
+  }
+
+  const bookDescription = `${book.description.slice(0, 150)}...`;
+  const keywords = [
+    book.title,
+    book.author,
+    book.category.replace('-', ' '),
+    ...book.tags,
+    'personal finance',
+    'book review',
+    'financial education'
+  ].join(', ');
+
+  return {
+    title: `${book.title} by ${book.author} - Review & Summary`,
+    description: bookDescription,
+    keywords,
+    authors: [{ name: book.author }],
+    openGraph: {
+      title: `${book.title} - Personal Finance Book Review`,
+      description: bookDescription,
+      type: 'article',
+      url: `https://book-fi.vercel.app/books/${book.id}`,
+      images: [
+        {
+          url: book.coverImage,
+          width: 300,
+          height: 400,
+          alt: `${book.title} book cover`,
+        },
+      ],
+      authors: [book.author],
+      publishedTime: book.publishedDate,
+      tags: book.tags,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${book.title} by ${book.author}`,
+      description: bookDescription,
+      images: [book.coverImage],
+    },
+    alternates: {
+      canonical: `/books/${book.id}`,
+    },
   };
 }
 

@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import { Metadata } from 'next';
 import Link from 'next/link';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
@@ -8,6 +9,49 @@ import { getBooksByCollection, bookCollections, getFeaturedCollections } from '@
 interface CollectionPageProps {
   params: {
     id: string;
+  };
+}
+
+export async function generateMetadata({ params }: CollectionPageProps): Promise<Metadata> {
+  const collection = bookCollections.find(col => col.id === params.id);
+  
+  if (!collection) {
+    return {
+      title: 'Collection Not Found | BookFi',
+      description: 'The requested collection could not be found.',
+    };
+  }
+
+  const booksInCollection = getBooksByCollection(params.id);
+  const collectionDescription = `${collection.description} Curated collection of ${booksInCollection.length} expert-reviewed personal finance books.`;
+
+  return {
+    title: `${collection.title} - Curated Book Collection | BookFi`,
+    description: collectionDescription,
+    keywords: `${collection.title}, personal finance books, book collection, financial education, curated reading list`,
+    openGraph: {
+      title: `${collection.title} - Personal Finance Book Collection`,
+      description: collectionDescription,
+      type: 'website',
+      url: `https://book-fi.vercel.app/collections/${collection.id}`,
+      images: [
+        {
+          url: '/images/og-collection.jpg',
+          width: 1200,
+          height: 630,
+          alt: `${collection.title} Book Collection`,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${collection.title} - Book Collection`,
+      description: collectionDescription,
+      images: ['/images/og-collection.jpg'],
+    },
+    alternates: {
+      canonical: `/collections/${collection.id}`,
+    },
   };
 }
 

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import SearchBar from '@/components/search/SearchBar';
 
 export default function Header() {
   return (
@@ -12,6 +13,11 @@ export default function Header() {
               </div>
               <span className="text-xl font-bold text-white">BookFi</span>
             </Link>
+          </div>
+          
+          {/* Search Bar - Hidden on small screens */}
+          <div className="hidden lg:block flex-1 max-w-md mx-8">
+            <SearchBar />
           </div>
           
           <nav className="hidden md:flex space-x-8">
@@ -33,6 +39,11 @@ export default function Header() {
           </nav>
           
           <div className="flex items-center space-x-4">
+            {/* Mobile search button */}
+            <button className="lg:hidden text-slate-300 hover:text-emerald-400 transition-colors">
+              <span className="text-xl">🔍</span>
+            </button>
+            
             <Link 
               href="/collections/beginner-essentials"
               className="bg-gradient-to-r from-emerald-500 to-green-500 hover:from-emerald-600 hover:to-green-600 text-white px-5 py-2.5 rounded-xl font-medium text-sm transition-all duration-200 shadow-lg hover:shadow-emerald-500/25"
@@ -40,6 +51,11 @@ export default function Header() {
               Start Learning
             </Link>
           </div>
+        </div>
+        
+        {/* Mobile Search Bar */}
+        <div className="lg:hidden pb-4">
+          <SearchBar />
         </div>
       </div>
     </header>

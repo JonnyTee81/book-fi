@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import NewsletterSignup from '@/components/newsletter/NewsletterSignup';
 
 export default function Footer() {
   return (
@@ -12,16 +13,7 @@ export default function Footer() {
               Join thousands of readers who are building wealth and achieving financial independence through the power of expert-recommended personal finance books. Start your journey today with our curated collection of life-changing financial education.
             </p>
             
-            <div className="flex max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-3 rounded-l-xl text-slate-900 bg-white focus:outline-none focus:ring-2 focus:ring-emerald-500"
-              />
-              <button className="bg-gradient-to-r from-emerald-500 to-green-500 hover:from-emerald-600 hover:to-green-600 px-6 py-3 rounded-r-xl font-medium transition-all duration-200 shadow-lg hover:shadow-emerald-500/25">
-                →
-              </button>
-            </div>
+            <NewsletterSignup />
           </div>
         </div>
       </div>

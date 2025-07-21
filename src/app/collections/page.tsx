@@ -1,7 +1,23 @@
 import Link from 'next/link';
+import { Metadata } from 'next';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import { bookCollections, getFeaturedCollections, getBooksByCollection } from '@/lib/data/books';
+
+export const metadata: Metadata = {
+  title: 'Curated Personal Finance Book Collections | BookFi',
+  description: 'Explore expertly curated collections of personal finance books designed for specific goals: beginner essentials, investing classics, FIRE movement, debt elimination, and more.',
+  keywords: 'personal finance collections, curated book lists, investing book series, beginner finance books, FIRE movement books, financial education collections',
+  openGraph: {
+    title: 'Curated Personal Finance Book Collections | BookFi',
+    description: 'Explore expertly curated collections of personal finance books designed for specific goals: beginner essentials, investing classics, FIRE movement, debt elimination, and more.',
+    type: 'website',
+    url: 'https://book-fi.vercel.app/collections',
+  },
+  alternates: {
+    canonical: '/collections',
+  },
+};
 
 export default function CollectionsPage() {
   const featuredCollections = getFeaturedCollections();

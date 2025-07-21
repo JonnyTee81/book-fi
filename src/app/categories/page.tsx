@@ -1,7 +1,23 @@
 import Link from 'next/link';
+import { Metadata } from 'next';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import { bookCategories, getBooksByCategory } from '@/lib/data/books';
+
+export const metadata: Metadata = {
+  title: 'Personal Finance Book Categories | BookFi',
+  description: 'Explore personal finance books by category: investing, budgeting, debt management, real estate, entrepreneurship, retirement planning, and financial planning.',
+  keywords: 'personal finance categories, investing books, budgeting books, debt management, real estate books, entrepreneurship books, retirement planning, financial planning',
+  openGraph: {
+    title: 'Personal Finance Book Categories | BookFi',
+    description: 'Explore personal finance books by category: investing, budgeting, debt management, real estate, entrepreneurship, retirement planning, and financial planning.',
+    type: 'website',
+    url: 'https://book-fi.vercel.app/categories',
+  },
+  alternates: {
+    canonical: '/categories',
+  },
+};
 
 export default function CategoriesPage() {
   return (

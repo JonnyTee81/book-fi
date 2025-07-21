@@ -1,9 +1,16 @@
+'use client';
+
+import { useState } from 'react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import BookCard from '@/components/book/BookCard';
+import FilterSort from '@/components/book/FilterSort';
 import { allBooks, bookCategories } from '@/lib/data/books';
+import { Book } from '@/types';
+
 
 export default function BooksPage() {
+  const [filteredBooks, setFilteredBooks] = useState<Book[]>(allBooks);
   return (
     <div className="min-h-screen bg-slate-900">
       <Header />
@@ -33,29 +40,42 @@ export default function BooksPage() {
           </div>
         </div>
 
-        {/* Category Filter Tabs */}
-        <div className="mb-8">
-          <div className="flex flex-wrap gap-2">
-            <button className="px-4 py-2 bg-gradient-to-r from-emerald-500 to-green-500 text-white rounded-full text-sm font-medium shadow-lg">
-              All Books
-            </button>
-            {bookCategories.map((category) => (
-              <button 
-                key={category.slug}
-                className="px-4 py-2 bg-slate-800/50 text-slate-300 hover:text-white hover:bg-slate-700/50 rounded-full text-sm font-medium border border-slate-600 transition-all duration-200 backdrop-blur-sm"
-              >
-                {category.name}
-              </button>
-            ))}
-          </div>
+        {/* Filter and Sort */}
+        <FilterSort 
+          books={allBooks} 
+          onFilteredBooksChange={setFilteredBooks}
+        />
+
+        {/* Results Summary */}
+        <div className="mb-6 flex items-center justify-between">
+          <p className="text-slate-300">
+            Showing {filteredBooks.length} of {allBooks.length} books
+          </p>
         </div>
 
         {/* Books Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-          {allBooks.map((book) => (
+          {filteredBooks.map((book) => (
             <BookCard key={book.id} book={book} />
           ))}
         </div>
+
+        {/* No Results */}
+        {filteredBooks.length === 0 && (
+          <div className="text-center py-16">
+            <div className="text-6xl mb-6">📚</div>
+            <h3 className="text-2xl font-bold text-white mb-4">No books found</h3>
+            <p className="text-slate-300 mb-8">
+              Try adjusting your filters or search criteria to find more books.
+            </p>
+            <button
+              onClick={() => setFilteredBooks(allBooks)}
+              className="bg-gradient-to-r from-emerald-500 to-green-500 hover:from-emerald-600 hover:to-green-600 text-white px-8 py-3 rounded-xl font-medium transition-all duration-200 shadow-lg hover:shadow-emerald-500/25"
+            >
+              Show All Books
+            </button>
+          </div>
+        )}
 
         {/* Bottom CTA */}
         <div className="mt-16 text-center bg-slate-800/50 rounded-2xl p-12 shadow-lg border border-slate-700/50 backdrop-blur-sm">
